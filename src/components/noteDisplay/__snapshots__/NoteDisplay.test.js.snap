@@ -57,6 +57,7 @@ exports[`NoteDisplay should render NoteDisplay correctly 1`] = `
     }
   >
     <ForwardRef(Bootstrap(Button))
+      disabled={false}
       onClick={[Function]}
       style={
         Object {
