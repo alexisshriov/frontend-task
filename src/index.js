@@ -1,4 +1,12 @@
-const rootElem = document.getElementById('root');
+import React from 'react';
+import ReactDOM from 'react-dom';
+import './index.css';
+import App from './components/App';
+import * as serviceWorker from './serviceWorker';
 
-const html = rootElem.innerHTML;
-rootElem.innerHTML = 'Welcome to the Adeva take home test. Please follow the instructions in the README and have fun 😃.';
+ReactDOM.render(<App />, document.getElementById('root'));
+
+// If you want your app to work offline and load faster, you can change
+// unregister() to register() below. Note this comes with some pitfalls.
+// Learn more about service workers: https://bit.ly/CRA-PWA
+serviceWorker.unregister();

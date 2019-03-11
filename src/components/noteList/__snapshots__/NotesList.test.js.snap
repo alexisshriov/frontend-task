@@ -1,0 +1,47 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`NoteList should render NoteList correctly 1`] = `
+<div
+  style={
+    Object {
+      "width": 300,
+    }
+  }
+>
+  <div
+    style={
+      Object {
+        "margin": 7,
+      }
+    }
+  >
+    <label>
+      Filter:
+    </label>
+    <input
+      onChange={[Function]}
+      type="text"
+    />
+  </div>
+  <NoteRow
+    key="d39gr"
+    note={
+      Object {
+        "id": "d39gr",
+        "text": "note text test1",
+        "title": "note title test1",
+      }
+    }
+  />
+  <NoteRow
+    key="ds35"
+    note={
+      Object {
+        "id": "ds35",
+        "text": "note text test2",
+        "title": "note title test2",
+      }
+    }
+  />
+</div>
+`;

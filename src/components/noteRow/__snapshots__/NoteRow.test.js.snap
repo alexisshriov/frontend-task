@@ -1,0 +1,32 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`NoteList should render NoteList correctly 1`] = `
+<div
+  onClick={[Function]}
+  style={
+    Object {
+      "border": "2px solid gray",
+      "borderRadius": 5,
+      "display": "flex",
+      "flex": 1,
+      "flexDirection": "row",
+      "justifyContent": "space-between",
+      "padding": 10,
+    }
+  }
+>
+  <div>
+    <h4>
+      note title test1
+    </h4>
+  </div>
+  <div>
+    <ForwardRef(Bootstrap(Button))
+      className="btn"
+      onClick={[Function]}
+    >
+      X
+    </ForwardRef(Bootstrap(Button))>
+  </div>
+</div>
+`;

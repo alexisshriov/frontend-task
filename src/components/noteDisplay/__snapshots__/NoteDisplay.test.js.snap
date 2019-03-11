@@ -1,0 +1,83 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`NoteDisplay should render NoteDisplay correctly 1`] = `
+<div
+  style={
+    Object {
+      "border": "2px solid gray",
+      "borderRadius": 5,
+      "height": 500,
+      "padding": 12,
+      "width": 500,
+    }
+  }
+>
+  <div>
+    <p>
+      <b>
+        note title:
+      </b>
+    </p>
+    <input
+      name="title"
+      onChange={[Function]}
+      style={
+        Object {
+          "width": 400,
+        }
+      }
+      type="text"
+      value="note title test"
+    />
+  </div>
+  <br />
+  <div>
+    <p>
+      <b>
+        note text:
+      </b>
+    </p>
+    <textarea
+      cols="56"
+      name="text"
+      onChange={[Function]}
+      rows="12"
+      value="note text test"
+    />
+  </div>
+  <div
+    style={
+      Object {
+        "display": "flex",
+        "flex": 1,
+        "flexDirection": "row",
+        "justifyContent": "space-between",
+        "width": 250,
+      }
+    }
+  >
+    <ForwardRef(Bootstrap(Button))
+      onClick={[Function]}
+      style={
+        Object {
+          "width": 100,
+        }
+      }
+      variant="primary"
+    >
+      save
+    </ForwardRef(Bootstrap(Button))>
+    <ForwardRef(Bootstrap(Button))
+      onClick={[Function]}
+      style={
+        Object {
+          "width": 100,
+        }
+      }
+      variant="secondary"
+    >
+      cancel
+    </ForwardRef(Bootstrap(Button))>
+  </div>
+</div>
+`;
